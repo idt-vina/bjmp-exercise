@@ -9,6 +9,19 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 
+/**
+ *	Your score: (YES is 1 point)
+ *
+ *	Has Name: YES (as lastName & firstName)
+ *	Has Jail: YES
+ *	Correct Relationship w/ Jail: YES
+ *	Has Rank: YES
+ *	Has Trustee: YES
+ *	Correct Relationship w/ Trustee: YES
+ *
+ *	Final Score: 6 of 6
+ */
+
 @Entity
 public class Officer {
 	

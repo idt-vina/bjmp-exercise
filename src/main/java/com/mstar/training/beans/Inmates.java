@@ -13,6 +13,26 @@ import javax.persistence.OneToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+/**
+ *	Your score: (YES is 1 point)
+ *
+ *	Has Jail: NO
+ *	Correct Relationship w/ Jail: N/A
+ *	Has Type: YES
+ *	Type is Enum: YES
+ *	Has Name: NO
+ *	Has Control Number: YES
+ *	Control Number is Unique: YES
+ *	Has Commitment Date: YES
+ *	Commitment Date is Timestamp: NO
+ *
+ *	Remarks:
+ *	1. The name of an inmate was not explicitly specified but its something that's intrinsic in all human beings
+ *	2. The commitment date is required for budgeting meals for an inmate (breakfast, lunch & dinner), so on the commitment date itself it is important to know if the inmate has been served all 3 meals or not.
+ *
+ *	Final Score: 5 of 9
+ */
+
 @Entity
 public class Inmates {
 
